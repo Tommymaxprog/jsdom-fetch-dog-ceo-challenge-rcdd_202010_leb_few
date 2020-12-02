@@ -3,7 +3,7 @@ console.log('%c HI', 'color: firebrick')
 const dogList = document.querySelector("#dog-breeds")
 const dropdown = document.querySelector("#breed-dropdown")
 
-
+                                                                                                                                                                                                    
 fetch("https://dog.ceo/api/breeds/image/random/4")
   .then(resp => resp.json())
   .then(json => function(json){
